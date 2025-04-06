@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>NoBias Media</h3>
+          <h3>The NoBiasMedia</h3>
           <p>Delivering unbiased news and analysis from around the world.</p>
         </div>
         
@@ -22,16 +22,14 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact Info</h3>
           <address>
-            <p>123 News Street</p>
-            <p>Media City, MC 12345</p>
-            <p>United States</p>
-            <p>Email: info@nobiasmedia.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Pune, Maharashtra, India</p>
+            <p>PIN: 411045</p>
+            <p>Email: manisankar@thenobiasmedia.com</p>
           </address>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} NoBias Media. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} The NoBiasMedia. All rights reserved.</p>
       </div>
     </footer>
   );
